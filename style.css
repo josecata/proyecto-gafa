@@ -1,0 +1,505 @@
+/*  Ponemos color verde
+ al encabezado H1*/
+
+h1 { 
+  
+        color:darkblue;
+        font-size: 45px;
+        text-align: center;
+        background-size: 70px;
+        margin-left: 270px;
+        margin-right: 300px;
+       text-shadow: 2px 2px 2px black;
+       transition-property: all;
+       transition-duration: 3s;
+      
+}
+        
+.menu li {
+
+        padding: 20px;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        display: inline-block;
+                
+}
+
+.principal {
+        text-decoration: none;
+        color:ghostwhite;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        text-shadow: 2px 2px 2px black;
+}
+
+.super {
+        float: right;
+}
+
+.general {
+        text-align: center;
+            
+} 
+
+.vueltaatras {
+        width: 30px;
+        height: 25px;
+}
+        
+.section-primera { 
+  
+        background-image: url(pages/img/covid.jpg);    
+        background-size: 2000px;
+        background-repeat: no-repeat;
+        padding: 10px;
+        margin-top: -4.1px;
+    
+}
+.lista-uno li {
+
+        padding: 10px;
+        list-style: none;
+        display: inline-block;
+        margin: auto 220px;
+        background-color:transparent;
+        text-align:left;
+        padding: 20px;
+}
+
+.covid {
+        color:cornsilk;
+        text-decoration: none;
+        font-size: 15px;
+        font-style: oblique;
+        text-shadow: 10px 10px 10px black;
+        width: 100px;
+
+}
+
+/* Cambiamos Color a la palabra Covid*/
+.virus    { 
+  
+        color:white;
+    }    
+
+/*class*/
+
+.section-segunda { 
+  
+        background-color:#f7f1e3;
+        padding: 10px;
+        margin-top: -18px;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 10000;
+              
+}    
+
+    
+
+
+.cuatro {
+        color:darkcyan;
+        text-decoration: none;
+        font-size: 15px;
+        font-style: oblique;
+        text-shadow: 10px 10px 10px black;
+}
+    
+.leyenda-pie {
+         
+          color: black;
+          padding-left: 250px;
+          font-size: small;
+          font-weight: bold;
+}
+    
+  /* Achicamos tamaño al logo*/  
+.imagen    { 
+  
+        width: 100px;
+    
+    
+    }  
+/* posicion de imagenes de header en seccion asociados*/
+ .imagenasociarme {
+       
+       display: flex;
+       justify-content:first baseline;
+    
+
+ }   
+
+ .imagenplan {
+       margin-left: 55ch;
+       margin-right: 55ch;  
+       width: 500px;
+
+}
+
+.asociarme {
+
+
+    background-color:#d1ccc0;
+}
+
+h2 {
+        text-align: center;
+        text-shadow: 5px 5px 40px black;
+        color:lightseagreen;
+        font-size: 30px;
+        padding: 10px 10px;
+
+}
+
+.plan {
+        font-style: italic;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        line-height: 30px;
+        padding: 30px 30px;
+}
+
+/* aplicar propiedas al footer de asociados*/
+
+
+/* aplicar estilos, color y posicion a la lista de la seccion Asociados*/
+
+.lista-asociarme li
+{ 
+  
+        list-style:none;
+        text-transform: uppercase;
+        color: crimson;
+        font-weight: 2000;
+        display:inline-flex;
+        justify-content:space-between;
+        padding: 15px;
+        
+
+}
+
+.socio1 {
+        color:darkcyan;
+        text-decoration: none;
+        font-size: 25px;
+        font-style: oblique;
+        text-shadow: 10px 10px 10px black;
+        position: relative;
+        left: 80px;
+}
+
+.socio2 {
+        color:darkcyan;
+        text-decoration: none;
+        font-size: 25px;
+        font-style: oblique;
+        text-shadow: 10px 10px 10px black;
+        position: relative;
+        left: 380px;
+}
+
+.socio3 {
+        color:darkcyan;
+        text-decoration: none;
+        font-size: 25px;
+        font-style: oblique;
+        text-shadow: 10px 10px 10px black;
+        position: relative;
+        left: 650px;
+}
+
+/*APLICAMOS GRIDD  a Asociarme*/
+
+.plan-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 5em;
+        height: 60vh;
+        justify-items: center;
+        align-items: center;
+}
+
+.plan-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px black;
+}
+
+.plan-item1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+}
+
+.plan-item2 {
+        grid-column: 2/3;
+        grid-row: 1/2; 
+        
+}
+
+.plan-item3 {
+        grid-column: 3/3;
+        grid-row: 1/1; 
+        
+}
+
+.videoasociado {
+        margin-top: -150px;
+}
+
+.prestador-1 {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration-style: double;
+        color: black;
+        font-size: 3ch;
+        font-weight: 3000;
+        font-style:oblique;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body {
+        /*background-image: url(pages/img/prestadores.jpg);*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5ch;
+        opacity: 1.0 ;
+        display: block;
+        text-align: center;
+}
+
+.menu-prestadores {
+        margin: 5px 5px 5px;
+        margin-left: 60ch;
+        text-transform: uppercase;
+        color: black;
+        font-style:oblique;
+        text-align:justify;
+        margin-bottom: 40px;
+        text-shadow: 10px 10px 10px black;
+}
+
+/*APLICAMOS GRIDD  a Prestadores*/
+
+.grid-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 5em;
+        height: 90vh;
+}
+
+.grid-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px #850808;
+}
+
+.grid-item1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+}
+
+.grid-item2 {
+        grid-column: 3/5;
+        grid-row: 1/3; 
+        
+}
+
+.grid-item3 {
+        grid-column: 2/3;
+        grid-row: 2/3; 
+        
+}
+   
+.menu {   
+    background-color:#48C9B0;
+    padding: 20px 0;
+    /* Habilito Flexbox */
+    display: flex;
+
+    /* alineo horizontalmente*/
+    justify-content: center;
+}
+
+.titulo {
+
+        background-color:white;
+        padding: 15px 0;
+        display: flex;
+        justify-content:space-evenly;
+     
+}
+
+.logo-principal {
+
+        width: 100px;
+        transition-property: all;
+        transition-duration: 2s;
+                
+}
+.logo-principal:hover{
+        transform: scale(1.5);
+}
+
+h1:hover {
+        transform: scale(2);
+}
+
+.covid {
+        transform: scale(2);
+}
+
+
+
+/*MOBILE*/
+@media only screen and (max-width: 576px){
+   .body {
+           display: none;
+   }     
+
+   .grid-container {
+           display: flex;
+           flex-direction: column;
+           height: 100%;
+   }
+   
+        
+}
+
+
+
+.anima1 {
+        color:darkcyan;
+        text-decoration: none;
+        font-size: 30px;
+        font-style: oblique;
+        text-shadow: 10px 10px 10px black;  
+        width: 50px;
+        height: 50px;
+        
+}
+
+.anima1:hover {
+        animation: ChangeColor 6s;
+}
+
+
+.card-title {
+        color: darkcyan;
+        text-shadow: 10px 10px 10px black;  
+
+}
+
+
+
+@keyframes ChangeColor {
+        0% {
+              color: blue;          
+        }
+        25% {
+              font-size: 60px;
+              color: darkgreen;   
+        }
+        50% {
+               position:relative;
+               right: 150px;
+        }
+        100% {
+                color: darkgreen;
+                rotate: 15deg;
+        }
+
+}
+
+.titulosector {
+        color: black;
+        text-shadow: 5px 5px 40px black;
+        padding-bottom: 60px;
+       
+
+}
+
+.sectorparrafo { 
+
+        color:black;
+       
+        text-align: center;
+        text-shadow: 10px 10px 10px black;  
+        
+}
+
+.piesector {
+        
+        color: white;
+        font-style: inherit;
+        padding-top: 40px;
+        text-shadow: 5px 5px 40px black;
+}
+
+.sector:hover {
+        transform: scale(2);
+}
+
+.covidhacer {
+        display:block;
+
+        margin-left: auto;
+
+        margin-right: auto;
+}
+
+.covidlista li {
+        font-style: italic;
+        text-align: left;
+}
+
+.covidlista1  * {
+
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+        padding: 5px;
+}
+
+.negrita {
+        font-weight: bold;
+        font-size: 15px;
+}
+
+.desinfectar {
+        text-shadow: 10px 10px 10px black;
+        padding: 15px;
+        line-height: 35px;
+}
+
+.prestadores {
+
+        background-color: cadetblue;
+}
+
+.container-usuario {
+        text-shadow: 10px 10px 10px black; 
+        
+}
+
+.titulo-prestadores {
+        text-shadow: 10px 10px 10px black;
+        margin-left: 150px;
+        padding: 25px;
+}
