@@ -4,17 +4,42 @@
 h1 { 
   
         color:darkblue;
-        font-size: 45px;
+        font-size: 30px;
         text-align: center;
-        background-size: 70px;
+        background-size: 50px;
         margin-left: 270px;
         margin-right: 300px;
+        margin-top: 30px;
        text-shadow: 2px 2px 2px black;
        transition-property: all;
        transition-duration: 3s;
-      
 }
+
+.icono {
+        width: 30px;
+        height: 30px;
+}
+
+#btn-menu {
+        display: none;
+}
+
+header label {
+        display:none;
+        width: 45px;
+        height: 45px;
+        padding: 10px;
+        border-right: 1px, solid #fff;
+        margin-bottom: 10px;
         
+}
+
+header label:hover {
+        cursor: pointer;
+        background-color:lightblue
+}
+     
+
 .menu li {
 
         padding: 20px;
@@ -22,6 +47,8 @@ h1 {
         font-family: sans-serif;
         font-weight: bold;
         display: inline-block;
+        border-right: 1px solid white;
+
                 
 }
 
@@ -39,9 +66,19 @@ h1 {
 }
 
 .general {
-        text-align: center;
+       
+        width: 80%;
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1000px;
             
 } 
+
+
+
+.carrusel-segundo {
+        text-align: center;
+}
 
 .vueltaatras {
         width: 30px;
@@ -62,10 +99,10 @@ h1 {
         padding: 10px;
         list-style: none;
         display: inline-block;
-        margin: auto 220px;
+        margin: auto 200px;
         background-color:transparent;
-        text-align:left;
         padding: 20px;
+        
 }
 
 .covid {
@@ -75,7 +112,7 @@ h1 {
         font-style: oblique;
         text-shadow: 10px 10px 10px black;
         width: 100px;
-
+      
 }
 
 /* Cambiamos Color a la palabra Covid*/
@@ -100,9 +137,6 @@ h1 {
               
 }    
 
-    
-
-
 .cuatro {
         color:darkcyan;
         text-decoration: none;
@@ -124,8 +158,7 @@ h1 {
   
         width: 100px;
     
-    
-    }  
+       }  
 /* posicion de imagenes de header en seccion asociados*/
  .imagenasociarme {
        
@@ -166,9 +199,6 @@ h2 {
         padding: 30px 30px;
 }
 
-/* aplicar propiedas al footer de asociados*/
-
-
 /* aplicar estilos, color y posicion a la lista de la seccion Asociados*/
 
 .lista-asociarme li
@@ -180,7 +210,7 @@ h2 {
         font-weight: 2000;
         display:inline-flex;
         justify-content:space-between;
-        padding: 15px;
+        padding: 0.9375rem;
         
 
 }
@@ -188,21 +218,24 @@ h2 {
 .socio1 {
         color:darkcyan;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 1.5625rem;
         font-style: oblique;
-        text-shadow: 10px 10px 10px black;
+        text-shadow: 0.625rem 0.625rem 0.625rem black;
         position: relative;
-        left: 80px;
+        left: 5rem;
+        max-width: 100%;
 }
 
 .socio2 {
         color:darkcyan;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 1.5625rem;
         font-style: oblique;
         text-shadow: 10px 10px 10px black;
         position: relative;
         left: 380px;
+        max-width: 100%;
+       
 }
 
 .socio3 {
@@ -213,6 +246,11 @@ h2 {
         text-shadow: 10px 10px 10px black;
         position: relative;
         left: 650px;
+        max-width: 100%;
+}
+
+.videoasociado {
+        padding-top: 80px;
 }
 
 /*APLICAMOS GRIDD  a Asociarme*/
@@ -258,6 +296,9 @@ h2 {
         margin-top: -150px;
 }
 
+
+/* Prestadores*/
+
 .prestador-1 {
         text-align: center;
         text-transform: uppercase;
@@ -270,7 +311,6 @@ h2 {
 }
 
 .body {
-        /*background-image: url(pages/img/prestadores.jpg);*/
         background-size: cover;
         background-repeat: no-repeat;
         padding: 5ch;
@@ -343,6 +383,7 @@ h2 {
         padding: 15px 0;
         display: flex;
         justify-content:space-evenly;
+        
      
 }
 
@@ -364,24 +405,6 @@ h1:hover {
 .covid {
         transform: scale(2);
 }
-
-
-
-/*MOBILE*/
-@media only screen and (max-width: 576px){
-   .body {
-           display: none;
-   }     
-
-   .grid-container {
-           display: flex;
-           flex-direction: column;
-           height: 100%;
-   }
-   
-        
-}
-
 
 
 .anima1 {
@@ -490,12 +513,16 @@ h1:hover {
 
 .prestadores {
 
-        background-color: cadetblue;
+        background-image: url(../Desafio-8/pages/img/stethoscope-2617701.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 2500px;
 }
 
 .container-usuario {
         text-shadow: 10px 10px 10px black; 
-        
+        color:white;
+        font-size: 20px;
+        font-weight: bolder;
 }
 
 .titulo-prestadores {
@@ -503,3 +530,78 @@ h1:hover {
         margin-left: 150px;
         padding: 25px;
 }
+
+@media screen  and (max-width:800px) {
+   .tamaño {
+                width: 100%;
+                height: auto;
+        }
+
+    .section-primera {
+                width: 100%;
+                
+    }    
+
+    .lista-uno * {
+            text-align: left;
+            width: 100%;
+            align-items: initial;
+            margin: 0%;
+    }
+
+    .pie-pagina {
+            width: 100%;
+    }
+}
+
+
+@media screen and (max-width:360px) {
+
+     .covid{
+         margin: auto -200px; 
+                        
+         }     
+
+      
+           
+}
+
+@media (max-width:768px) {
+        header label {
+                display:block;
+        }
+
+        .ejemplo {
+                position:absolute;
+                background:white;
+                width: 70%;
+                margin-left: -70%;
+              
+        }
+        .menu {
+                flex-direction: column;
+        }
+        .menu li {
+                border-top: 1px solid white;
+        }
+
+        #btn-menu:checked ~ .ejemplo {
+                margin:0;
+                z-index: 20;
+        }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 576px){
+        .body {
+                display: none;
+        }     
+     
+        .grid-container {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+        }
+        
+             
+     }
