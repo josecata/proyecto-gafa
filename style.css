@@ -356,6 +356,13 @@ h1:hover {
   padding-bottom: 60px;
 }
 
+.titulosector2 {
+  display: none;
+  text-shadow: 5px 5px 40px white;
+  align-items: center;
+  text-align: center;
+}
+
 .sectorparrafo {
   color: black;
 
@@ -461,7 +468,7 @@ h1:hover {
     position: absolute;
     background: white;
     width: 70%;
-    margin-left: -70%;
+    margin-left: -80%;
   }
   .menu {
     flex-direction: column;
@@ -470,9 +477,57 @@ h1:hover {
     border-top: 1px solid white;
   }
 
+  .titulo {
+    background-color: aqua;
+    justify-content: center;
+    width: 100%;
+  }
+
   #btn-menu:checked ~ .ejemplo {
     margin: 0;
     z-index: 20;
+  }
+
+  .pie-pagina {
+    display: none;
+  }
+
+  .container-carousel {
+    width: 250%;
+    justify-content: left !important ;
+    align-items: center !important;
+  }
+
+  .lista-uno li {
+    margin: auto;
+  }
+
+  .covidhacer {
+    width: 100%;
+  }
+  .cuerpo-covid {
+    background-color: darkseagreen;
+  }
+
+  .imagenplan {
+    display: none;
+  }
+  .videoasociado iframe {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+  }
+
+  .imagen {
+    margin-left: auto;
+  }
+
+  .titulosector2 {
+    display: flex;
+  }
+  .titulosector {
+    display: none;
   }
 }
 
